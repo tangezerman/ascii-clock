@@ -4,6 +4,8 @@
 #include <unistd.h>
 #include <vector>
 #include <map>
+#include "ascii.h"
+
 
 // ASCII representation of digits 0-9 and colon ":"
 std::map<char, std::vector<std::string>> digit_map = {
